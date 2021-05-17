@@ -3,7 +3,6 @@ import tkinter as tk
 from tkinter import ttk
 import num2words
 from num2words import num2words
-#copy_words = ''
 
 # Application body()
 body = tk.Tk()
@@ -128,14 +127,10 @@ def enterBtn(event):
 
 # Copy To Clipboard Button
 def copyBtn():
-    #print("Hello!")
-    #print(text_field.get())
     word_to_clipboard()
 
 #Copy To Clipboard Button Pushing by "Enter"
 def copy_enterBtn(event):
-    #print("Control_Hello")
-    #print(text_field.get())
     word_to_clipboard()
 
 # making btn_convert()
